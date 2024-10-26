@@ -1,0 +1,11 @@
+com/lilong/context/MainTest.java
+ com.lilong.context.MainTest
+com/lilong/context/bean/Person.java
+ com.lilong.context.bean.Person
+com/lilong/context/config/MainConfig.java
+ com.lilong.context.config.MainConfig
+ com.lilong.context.config.MainConfig$MyImportRegistrar
+com/lilong/context/bean/Cat.java
+ com.lilong.context.bean.Cat
+com/lilong/context/AnnotationMainTest.java
+ com.lilong.context.AnnotationMainTest
