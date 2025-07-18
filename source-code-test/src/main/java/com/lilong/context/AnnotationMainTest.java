@@ -5,6 +5,7 @@ import com.lilong.context.bean.Person;
 import com.lilong.context.config.MainConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * 注解版Spring的用法
@@ -15,34 +16,7 @@ public class AnnotationMainTest {
 //		new ClassPathXmlApplicationContext()
 
 		ApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig.class);
-
-//		Person bean = applicationContext.getBean(Person.class);
-//		System.out.println(bean);
-
-
-//		String[] names = applicationContext.getBeanDefinitionNames();
-//		for (String name : names) {
-//			System.out.println(name);
-//		}
-
-
-//		Cat bean1 = applicationContext.getBean(Cat.class);
-//
-//		Cat bean2 = applicationContext.getBean(Cat.class);
-//
-//		System.out.println(bean1 == bean2);  //false
-
-//		Person bean1 = applicationContext.getBean(Person.class);
-//
-//		Cat cat = bean1.getCat();
-//
-//		Person bean2 = applicationContext.getBean(Person.class);
-//
-//		Cat cat1 = bean2.getCat();
-//		System.out.println(cat1 == cat);  //true
-//		System.out.println(cat1);
-
-
+		ClassPathXmlApplicationContext context1 = new ClassPathXmlApplicationContext();
 		Person bean = applicationContext.getBean(Person.class);
 
 		ApplicationContext context = bean.getContext();

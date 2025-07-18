@@ -1,3 +1,9 @@
+com/lilong/context/MyBeanFactoryPostProcessor.java
+ com.lilong.context.MyBeanFactoryPostProcessor
+com/lilong/context/bean/Cat.java
+ com.lilong.context.bean.Cat
+com/lilong/context/bean/MyBeanNameAware.java
+ com.lilong.context.bean.MyBeanNameAware
 com/lilong/context/MainTest.java
  com.lilong.context.MainTest
 com/lilong/context/bean/Person.java
@@ -5,7 +11,7 @@ com/lilong/context/bean/Person.java
 com/lilong/context/config/MainConfig.java
  com.lilong.context.config.MainConfig
  com.lilong.context.config.MainConfig$MyImportRegistrar
-com/lilong/context/bean/Cat.java
- com.lilong.context.bean.Cat
+com/lilong/context/BeanNameAwareTest.java
+ com.lilong.context.BeanNameAwareTest
 com/lilong/context/AnnotationMainTest.java
  com.lilong.context.AnnotationMainTest

@@ -88,6 +88,8 @@ import org.springframework.util.StringValueResolver;
  * @see PropertyPlaceholderConfigurer
  * @see org.springframework.context.support.PropertySourcesPlaceholderConfigurer
  */
+
+// 处理占位符 比如Bean中的占位符 property name="url" value="jdbc:${dbname:defaultdb}"
 public abstract class PlaceholderConfigurerSupport extends PropertyResourceConfigurer
 		implements BeanNameAware, BeanFactoryAware {
 

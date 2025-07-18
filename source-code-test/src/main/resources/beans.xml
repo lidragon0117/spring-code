@@ -6,7 +6,13 @@
 	<bean class="com.lilong.context.bean.Person" id="person">
 		<property name="name" value="张三"/>
 	</bean>
+	<bean class="com.lilong.context.MyBeanFactoryPostProcessor">
 
+	</bean>
+
+	<bean class="com.lilong.context.bean.MyBeanNameAware">
+
+	</bean>
 
 	<bean class="com.lilong.context.bean.Cat" id="cat" >
 <!--		<constructor-arg-->
